@@ -2,4 +2,3 @@ simplejson
 launchpadlib
 SQLAlchemy
 flask
-mod_wsgi

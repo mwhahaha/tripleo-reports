@@ -1,0 +1,13 @@
+#!/bin/bash -e
+cat <<EOF
+This is the tripleo-reports-centos7 S2I image:
+To use it, install S2I: https://github.com/mwhahaha/tripleo-reports
+
+Sample invocation:
+
+s2i build webapp/ tripleo-reports-centos7 tripleo-reports-centos7-app
+
+You can then run the resulting image via:
+docker run -d -p 8080:8080 tripleo-reports-centos7-app
+and see the test via http://localhost:8080
+EOF
