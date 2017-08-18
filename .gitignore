@@ -1,0 +1,3 @@
+*.pyc
+tripleo_reports/migrations
+tripleo_reports/app.db
